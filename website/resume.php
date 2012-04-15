@@ -194,7 +194,7 @@
 					<hr />
 					<div class="experienceItem">
 						<h3><a href="http://www.oracle.com/">Oracle Corporation</a></h3>
-						<h4>Associate Consultant, (RICE Developer, Java Developer) 08/10-Present</h4>
+						<h4>Associate Consultant, (Java Developer, RICE Developer, PL/SQL Developer) 08/10-Present</h4>
 						<ul>
 							<li>Assists in implementing Oracle Technologies for Oracle's Goverment, Education, and Healthcare clients.</li>
 							<li>Worked in various software shops under various management methodologies to deliver quality software for clients</li>
@@ -205,7 +205,7 @@
 							<li>Developed PL/SQL wrappers to EBS R12 Accounts Recievables APIs for exposing via Web Services</li>
 							<li>Solved defects caused by system upgrades with custom E-business Suite PL/SQL code.</li>
 							<li>Unit tests solutions developed for clients functionally and technically.</li>
-							<li>OCA Certified PL/SQL Developer</li>
+							<li>OCP Certified PL/SQL Developer</li>
 						</ul>
 					</div>
 					<div class="experienceItem">
@@ -241,7 +241,7 @@
 					<table>
 						<tr>
 							<td class="category">Application Development:</td>
-							<td>C# .NET, Java, C</td>
+							<td>Java, C# .NET, C</td>
 						</tr>
 						<tr>
 							<td class="category">Web Development:</td>
@@ -249,7 +249,7 @@
 						</tr>
 						<tr>
 							<td class="category">Data Management:</td>
-							<td>Oracle 11g, MySQL, MIcrosoft SQL Server, XML, XPath</td>
+							<td>Oracle 11g, MySQL, Microsoft SQL Server, XML, XPath</td>
 						</tr>
 						<tr>
 							<td class="category">Data Manipulation:</td>
@@ -259,10 +259,10 @@
 							<td class="category">Business Techologies:</td>
 							<td>Oracle E-Business Suite, Oracle SOA Suite</td>   
 						</tr>
-						<!--<tr>
-							<td>Certifications:</td>
-							<td>Coming soon: Oracle Certified Associate</td>
-						</tr>-->
+						<tr>
+							<td class="category">Certifications:</td>
+							<td>Oracle Certified Professional (PL/SQL Developer)</td>
+						</tr>
 					</table>
 				</div>
 			 </div>
