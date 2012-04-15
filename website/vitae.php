@@ -1,58 +1,156 @@
 <?php
 	include('do/nav.php');
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Zachary Zimmerman</title>
-	<link rel="stylesheet" href="styles.css" type="text/css">
-    <script src="js/zachJQuery.js" type="text/javascript"></script>
-    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-    <script type="text/javascript">
-	
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-6331853-2']);
-	  _gaq.push(['_setDomainName', '.zachzimm.com']);
-	  _gaq.push(['_trackPageview']);
-	
-	  (function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	
-	</script>
-</head>
-<body>
 
-	<div class="container">
-    	<div id="header">
-        	<div class="topSpaceHolder">
-            	&nbsp;
-            </div>
 <?php
-			printNav(2);
+	/* Main -- determine which view to display based on $_GET variables. */
+	if( isset($_GET['view']) 
+		&& $_GET['view'] == 'print' )
+	{
+		renderPrintView();
+	}
+	else
+	{
+		renderNormalView(); 
+	}
 ?>
-            <div class="navSpaceHolder">
-            
-            </div>
-        </div>
+
+<?php
+/* renderNormalView()
+ * The HTML with PHP calls goes here to print the view that visitors to the site see by default.
+ */
+?>
+<?php
+	function renderNormalView()
+	{
+?>
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Zachary Zimmerman</title>
+			<link rel="stylesheet" href="styles.css" type="text/css">
+			<script src="js/zachJQuery.js" type="text/javascript"></script>
+			<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+			<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+			<script type="text/javascript">
+			
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-6331853-2']);
+			  _gaq.push(['_setDomainName', '.zachzimm.com']);
+			  _gaq.push(['_trackPageview']);
+			
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+			
+			</script>
+		</head>
+		<body>
+
+			<div class="container">
+				<div id="header">
+					<div class="topSpaceHolder">
+						&nbsp;
+					</div>
+		<?php
+					printNav(2);
+		?>
+					<div class="navSpaceHolder">
+					
+					</div>
+				</div>
+				<?php printContent(true); ?>
+				<div class="rightShadow">
+					<!-- Empty DIV for right drop shadow -->
+				</div>
+				<div id="footer">
+					<div class="bottomShadow">
+						<!-- Empty DIV for bottom drop shadow -->
+						<span>&copy; Copyright <?php echo date("Y"); ?> Zachary Zimmerman. All rights reserved. Site design by Zach and Celine Zimmerman</span>
+					</div>
+					<div id="footerContent">
+					</div>
+				</div>
+			</div>
+
+		</body>
+		</html>
+<?php 
+	}
+?>
+
+<?php
+/* renderPrintView()
+ * The HTML with PHP calls goes here to print the view that visitors to the site see by default.
+ */
+?>
+<?php
+	function renderPrintView()
+	{
+?>
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Zachary Zimmerman</title>
+		<link rel="stylesheet" href="styles.css" type="text/css">
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-6331853-2']);
+		  _gaq.push(['_setDomainName', '.zachzimm.com']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+	</head>
+	<body style="background-image:none;">
+	
+		<div class="container">
+			<?php printContent(false); ?>
+		</div>
+	
+	</body>
+	</html>
+<?php 
+	}
+?>
+<?php
+	function printContent($boolPrintCaptcha)
+	{ ?>
         <div id="content">
         
         	<div id="resume">
                 <p id="contactInfo">
-                	<input type="button" onClick="showContactCaptcha()" value="Show contact info" />
-                    <div id="contactCaptcha" title="Please confirm your humanity.">
-                    <form id="contactCaptchaForm" onSubmit="postCaptchaAnswer(); return false;">
-                    	<div class="contactCaptchaFormContent">
-                            <label for="captchaAnswer">What is my last name? (Look above): </label><input type="text" name="captchaAnswer" class="text ui-widget-content ui-corner-all" />
-                            <input type="button" value="Submit"  onClick="postCaptchaAnswer()"/>
-                        </div>
-                    </form>
-                    </div>
+					<?php
+						if($boolPrintCaptcha)
+						{ ?>
+							<input type="button" onClick="showContactCaptcha()" value="Show contact info" />
+							<div id="contactCaptcha" title="Please confirm your humanity.">
+							<form id="contactCaptchaForm" onSubmit="postCaptchaAnswer(); return false;">
+								<div class="contactCaptchaFormContent">
+									<label for="captchaAnswer">What is my last name? (Look above): </label><input type="text" name="captchaAnswer" class="text ui-widget-content ui-corner-all" />
+									<input type="button" value="Submit"  onClick="postCaptchaAnswer()"/>
+								</div>
+							</form>
+							</div>
+					<?php
+						}
+						else
+						{
+							include('contactCaptcha.php');
+							printContactInfo();
+						}
+					?>
                 </p>
                 <div id="education" class="resumeSection">
 	                <h2>Education</h2>
@@ -183,18 +281,5 @@
                 </div>
              </div>
         </div>
-        <div class="rightShadow">
-        	<!-- Empty DIV for right drop shadow -->
-        </div>
-        <div id="footer">
-        	<div class="bottomShadow">
-            	<!-- Empty DIV for bottom drop shadow -->
-               	<span>&copy; Copyright 2011 Zachary Zimmerman. All rights reserved. Site design by Zach and Celine Zimmerman</span>
-            </div>
-            <div id="footerContent">
-            </div>
-        </div>
-    </div>
-
-</body>
-</html>
+<?php	}
+?>

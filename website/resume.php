@@ -72,7 +72,7 @@
 			<div id="footer">
 				<div class="bottomShadow">
 					<!-- Empty DIV for bottom drop shadow -->
-					<span>&copy; Copyright 2011 Zachary Zimmerman. All rights reserved. Site design by Zach and Celine Zimmerman</span>
+					<span>&copy; Copyright <?php echo date("Y"); ?> Zachary Zimmerman. All rights reserved. Site design by Zach and Celine Zimmerman</span>
 				</div>
 				<div id="footerContent">
 				</div>
@@ -86,7 +86,7 @@
 ?>
 
 <?php
-/* renderNormalView()
+/* renderPrintView()
  * The HTML with PHP calls goes here to print the view that visitors to the site see by default.
  */
 ?>
