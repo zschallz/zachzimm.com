@@ -47,7 +47,9 @@
 		echo '			</ul>' . "\n";
 		echo '		</li><!--' . "\n";
 		if( $curPage == 4)
-			echo '		--><li class="active"><a href="blog/" class="rootItem">BLOG</a></li>' . "\n";
+			echo '		--><li class="active"><a href="../blog/" class="rootItem">BLOG</a></li>' . "\n";
+		else if( $curPage == 3 )
+			echo '		--><li><a href="../blog/" class="rootItem">BLOG</a></li>' . "\n";
 		else
 			echo '		--><li><a href="blog/" class="rootItem">BLOG</a></li>' . "\n";
 		echo '	 </ul>' . "\n";
