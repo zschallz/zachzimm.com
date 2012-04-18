@@ -58,14 +58,13 @@
 							<td>Java, Swing, Webstart, Log4J, JUnit</td>
 						</tr>
 						<tr>
-							<th>Project Site</th>
+							<th>Tools</th>
+							<td>Confluence, Bamboo, Fisheye</td>
+						<tr>
+							<th>Project Site and Source</th>
 							<td>
 								<a href="http://fluency.knownspace.org/">Fluency at Knownspace</a><br/>
 							</td>
-						</tr>
-						<tr>
-							<th>Source</th>
-							<td><a href="http://code.google.com/p/ambienttrust/">Project Source at Knownspace</a><br/></td>
 						</tr>
 						<tr>
 							<th>License</th>
@@ -83,7 +82,7 @@
 					<p>During my graduate studies (unfinished) I had the opportunity to participate in an open-source project that 
 					aimed to create a multi-platform Java application that non-technical users could use to build functional applications 
 					visually. This project is on-going and can be used in its alpha stages. I was chosen to work on this project as part 
-					of work for a Masters-level Java Design Patterns course at Indiana University by Professor Gregory Rawlins .  I played 
+					of work for a Masters-level Java Design Patterns course at Indiana University by Professor Gregory Rawlins.  I played 
 					a major role in redesigning the User Experience of a key functional component of the application, and also assisted 
 					with Technical Implementation.</p>
 					<p>I worked on this project as a three-man team for two months with two other Java Developers.
@@ -94,8 +93,30 @@
 					<p>The result of my participation during this two-month engagement was numerous code
 					and design contributions to the existing open-source application, which can be viewed at
 					the repository listed above. To see examples of our team’s work, please see the below videos.</p>
+					<p>A report of commits I made to the project can be viewed using the build summary at <a href="http://fluency.knownspace.org/bamboo/browse/user/zschallz">Knownspace's Bamboo</a></p>
+					<h3> 
+					<h3>Presentations created</h3>
+					<ul>
+						<li>Fluency Honors Seminar Presentation (given to IU CS and Informatics honors students)
+							<ul>
+								<li><a href="../files/fluencyPresentation.key">Keynote (Includes videos and animations)</a></li>
+								<li><a href="../files/fluencyPresentation.ppt">Powerpoint (Includes only animations)</a></li>
+								<li><a href="../files/fluencyPresentation.pdf">PDF (No animations or video)</a></li>
+							</ul>
+						</li>
+						<li>
+						
+						</li>
+					</ul>
 					<h3>Videos</h3>
-					
+					<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/6gJNSmsteM8?version=3&feature=player_detailpage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/6gJNSmsteM8?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="360">
+					</object>
+					<p>Fluency's "pipe" system <b>after</b> design input and development contributions</p>
+					<br/>
+					<br/>
+					<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/HygDM8GdarQ?version=3&feature=player_detailpage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/HygDM8GdarQ?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="360">
+					</object>
+					<p>Fluency's "pipe" system <b>before</b> design input and development contributions</p>
 					<br/><br/>
                 </div>
              </div>

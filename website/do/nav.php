@@ -44,6 +44,10 @@
 			echo '				<li><a class="childItem" href="dewey.php">Dewey</a></li>' . "\n";
 		else
 			echo '				<li><a class="childItem" href="projects/dewey.php">Dewey</a></li>' . "\n";
+		if( $curPage == 3 )
+			echo '				<li><a class="childItem" href="fluency.php">Fluency</a></li>' . "\n";
+		else
+			echo '				<li><a class="childItem" href="projects/fluency.php">Fluency</a></li>' . "\n";
 		echo '			</ul>' . "\n";
 		echo '		</li><!--' . "\n";
 		if( $curPage == 4)
