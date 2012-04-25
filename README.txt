@@ -3,3 +3,5 @@ development log and repository for me, but should anyone find it useful the code
 permissive license. The content of the website is licensed under Creative Commons Attribution 3.0 United States (CC BY 3.0).
 
 For more information about these liceneses, please see the license files in this folder.
+
+Thanks!

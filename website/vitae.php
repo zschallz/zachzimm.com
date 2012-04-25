@@ -227,7 +227,7 @@
                     <div class="experienceItem">
                         <h3>Research Assistant</h3>
                         <h4><a href="http://informatics.indiana.edu/">Indiana University School of Informatics, 05/10-08/10</a></h4>
-                        <ul><li>Project: <a href="http://ethos.indiana.edu/">Dewey</a></li>
+                        <ul><li>Project: <a href="projects/dewey.php">Dewey</a></li>
                         	<ul>
                                 <li>Helped architect and develop a robot with a sensing platform to detect break-taking in an office environment.</li>
                                 <li>Used robot in an in-situ study in an Indiana University office to monitor break-taking habits of participants and using data to suggest breaks.</li>        	
