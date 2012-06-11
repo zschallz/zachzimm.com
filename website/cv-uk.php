@@ -378,7 +378,7 @@
                         <tr>
                             <td class="cvProductExp">Oracle DB</td>
                             <td class="cvYearsExp">1 year</td>
-                            <td class="cvSkillsExp">SQL, PL/SQL (OCA Certified)</td>
+                            <td class="cvSkillsExp">SQL, PL/SQL (OCP Certified)</td>
                         </tr>
                         <tr>
                             <td class="cvProductExp">Oracle E-Business Suite</td>
