@@ -175,7 +175,7 @@
                         <h4><a href="http://www.oracle.com/">Oracle Corporation</a>, Washington D.C. Metro Area, USA, 08/10-Present</h4>
                         <ul class="engagementEven">
                         	<li><b>EBS System Integration with Web Based Front end.</b> State government. Sep 2011-Apr 2012
-                        	<p><i>RICE Developer, ADF Developer.<br/> Integrated an E-Business Suite R12 Ayhccounts Receivables and Accounts Payables system with a custom ADF Facelets Frontend built for a large state government pension fund.</i></p>
+                        	<p><i>RICE Developer, ADF Developer.<br/> Integrated an E-Business Suite R12 Accounts Receivables and Accounts Payables system with a custom ADF Facelets Frontend built for a large state government pension fund.</i></p>
 								<ul>
 									<li>Developed a JAX-WS Web Services using ADF business components to expose EBS Accounts Receivables APIs</li>
 									<li>Developed a Quartz Java Scheduler job to call EBS AR APIs to programmatically create AR Invoices, Receipts, Adjustments, and Credit Applications</li>
@@ -186,7 +186,7 @@
                         </ul>
                         <ul class="engagementOdd">
                         	<li><b>Large Scale EBS HR 10.7->R12 Upgrade.</b> Federal government, defense.
-								<p><i>RICE Developer; upgraded a large, heavily customized E-Business Suite Human Resources 10.7 system to R12.</i></p>
+								<p><i>RICE Developer; upgraded a large, heavily customized E-Business Suite Human Resources 10.7 system to R12. System used to store HR data for 500,000+ employees.</i></p>
 								<ul>
 									<li>Retrofitted custom Oracle Forms and Oracle Forms Libraries designed for 10.7 to R12.</li>
 									<li>Retrofitted custom Oracle Reports designed for 10.7 to R12.</li>
@@ -194,7 +194,8 @@
 									<li>Retrofitted Flexfield Value Sets to reflect changes in validation between 10.7 and R12</li>
 									<li>Converted old data to be compatible with changes to HR made between 10.7 and R12.</li>
 									<li>Worked with functional consultants to solve defects that arose due to the upgrade process by performing the above duties.</li>
-									<li>Assisted in Functional and Technical Unit Testing customizations after the upgrade process.</li>
+									<li>Assisted in functional and technical unit testing customizations after the upgrade process.</li>
+									<li>Solved technical defects that arose during development (CEMLI) and quality assurance testing (QT&E).</li>
 								</ul>
                         	</li>
                         </ul>
@@ -204,10 +205,10 @@
 								<ul>
 									<li>Converted Photoshop PSD Mockups of an online shop's web design into cross-browser compatible, standards compliant XHTML, CSS, and Javascript.</li>
 									<li>Reviewed developed XHTML and CSS for WCAG (accesssibility) compliance.</li>
-									<li>Utilized JQuery (MIN and UI) Libraries to drive interactive features on website that client desired.</li>
-									<li>Used Photoshop to extract web-friendly images from a PSD file provided by a Web Designer.</li>
+									<li>Utilized JQuery (MIN and UI) Libraries to drive interactive features on website that the client desired.</li>
+									<li>Used Adobe Photoshop to extract web-friendly images from a PSD file provided by a Web Designer.</li>
 									<li>Worked with a backend development team to assist integration of the XHTML, CSS, and Javascript developed into the Java web application.</li>
-									<li>Worked with and mentored an offshore Junior Frontend Developer.</li>
+									<li>Worked with and mentored an offshore (India) Junior Frontend Developer.</li>
 								</ul>
                         	</li>
                         </ul>
@@ -323,7 +324,7 @@
                     	<h3>School of Informatics Web Fest, Indiana University, 2004</h3>
                         <h4>WebFest Web Design Contest winner, 1st Place</h4>
                         <ul>
-                        	<li>Placed first place with team in a web design contest to design a website for a local business in two hours. Performed Photoshop and CSS work.</li>
+                        	<li>Placed first place with team in a web design contest to design a website for a local business in two hours. Mocked-up design and gained developer buy-in. Performed Photoshop and CSS work and assisted with development.</li>
                         </ul>
                     </div>
                     <div id="skills" class="resumeSection">
@@ -337,7 +338,7 @@
                         </tr>
 		                <tr>
                             <td class="cvProductExp">Java</td>
-                            <td class="cvYearsExp">2 years</td>
+                            <td class="cvYearsExp">3 years</td>
                             <td class="cvSkillsExp">J2EE, JUnit, Swing, JDBC, JavaServer Faces, Android SDK, Log4J, Eclipse, Netbeans, JDeveloper</td>
                         </tr>
                         <tr>
@@ -363,7 +364,7 @@
                         <tr>
                             <td class="cvProductExp">XML</td>
                             <td class="cvYearsExp">2 years</td>
-                            <td class="cvSkillsExp">AJAX, XPath</td>
+                            <td class="cvSkillsExp">AJAX, XPath, Java Frameworks</td>
                         </tr>
                         <tr>
                             <td class="cvProductExp">MySQL</td>
@@ -377,23 +378,24 @@
                         </tr>
                         <tr>
                             <td class="cvProductExp">Oracle DB</td>
-                            <td class="cvYearsExp">1 year</td>
-                            <td class="cvSkillsExp">SQL, PL/SQL (OCA Certified)</td>
+                            <td class="cvYearsExp">2 years</td>
+                            <td class="cvSkillsExp">SQL, PL/SQL (OCP Certified)</td>
                         </tr>
                         <tr>
                             <td class="cvProductExp">Oracle E-Business Suite</td>
-                            <td class="cvYearsExp">1 year</td>   
-                            <td class="cvSkillsExp">Human Resources, Accounts Receivables, Reports, Oracle Forms, Interfaces, APIs</td>
+                            <td class="cvYearsExp">2 years</td>   
+                            <td class="cvSkillsExp">Human Resources, Accounts Receivables, Reports, Oracle Forms, Interfaces, APIs, System Integration, Basic Apps Administration</td>
                         </tr>
                         <tr>
                             <td class="cvProductExp">Oracle SOA Suite</td>
                             <td class="cvYearsExp">1 year</td>
-                            <td class="cvSkillsExp">Web Services, BPEL</td>   
+                            <td class="cvSkillsExp">Web Services, JDeveloper, BPEL</td>   
                         </tr>                        
-                        <!--<tr>
-                            <td>Certifications:</td>
-                            <td>Coming soon: Oracle Certified Associate</td>
-                        </tr>-->
+                        <tr>
+                            <td>Professional Certifications:</td>
+                            <td>Oracle Certified Associate PL/SQL Developer</td>
+                            <td>Oracle Certified Professional PL/SQL Developer</td>
+                        </tr>
                     </table>
                 </div>
                 </div>
