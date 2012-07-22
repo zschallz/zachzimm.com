@@ -1,9 +1,27 @@
 <?php
+	global $isInUk;
+	
+	function checkCountry()
+	{
+		global $isInUk;
+		if( strstr($_SERVER['HTTP_HOST'], 'zachzimm.co.uk') )
+		{
+			$isInUk = true;
+		}
+		else
+		{
+			$isInUk = false;
+		}
+	}
+
 	/* 	This is messy, but necessary for now so this script works in my development environments
 	 *	TODO: clean it up; detect current page and base path on that.
 	 */
 	function printNav($curPage)
 	{
+		checkCountry();
+		global $isInUk;
+		
 		echo '<div class="nav">' . "\n";
 		echo '	<ul>' . "\n";
 		if( $curPage == 1 )
@@ -17,10 +35,22 @@
 		else
 			echo '		--><li><span class="rootItem">INFO&nbsp;</span>' . "\n";
 		echo '			<ul>' . "\n";
-		if( $curPage == 3 )
-			echo '				<li><a class="childItem" href="../resume.php">Resume</a></li>' . "\n";
+		
+		if( $isInUk )
+		{
+			if( $curPage == 3 )
+				echo '				<li><a class="childItem" href="../cv-uk.php">CV</a></li>' . "\n";
+			else
+				echo '				<li><a class="childItem" href="cv-uk.php">CV</a></li>' . "\n";
+		}			
 		else
-			echo '				<li><a class="childItem" href="resume.php">Resume</a></li>' . "\n";
+		{
+			if( $curPage == 3 )
+				echo '				<li><a class="childItem" href="../resume.php">Resume</a></li>' . "\n";
+			else
+				echo '				<li><a class="childItem" href="resume.php">Resume</a></li>' . "\n";
+		}
+		
 		if( $curPage == 3 )
 			echo '				<li class="bottom"><a class="childItem" href="../vitae.php">Academics</a></li>' . "\n";			
 		else
