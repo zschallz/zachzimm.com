@@ -7,8 +7,6 @@
 	{
 		$isInUk = checkCountry();
 		
-		echo '<!-- Country: ' . $isInUk . '-->';
-		
 		echo '<div class="nav">' . "\n";
 		echo '	<ul>' . "\n";
 		if( $curPage == 1 )

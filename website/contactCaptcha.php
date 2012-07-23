@@ -19,7 +19,6 @@
 	
 	function printContactInfo()
 	{
-		echo checkCountry();
 		$isInUk = checkCountry();
 		/* Put contact information here */
 		echo 'Zachary Zimmerman<br />';
@@ -27,7 +26,6 @@
 			echo 'zach@zachzimm.com<br />';
 		else
 			echo 'zach@zachzimm.co.uk<br />';
-		echo '<!-- ' . $isInUk . ' -->';
 		if($isInUk == null || !$isInUk)
 			echo '+1 812-575-0715';
 		else
