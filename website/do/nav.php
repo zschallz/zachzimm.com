@@ -1,26 +1,13 @@
 <?php
-	global $isInUk;
-	
-	function checkCountry()
-	{
-		global $isInUk;
-		if( strstr($_SERVER['HTTP_HOST'], 'zachzimm.co.uk') )
-		{
-			$isInUk = true;
-		}
-		else
-		{
-			$isInUk = false;
-		}
-	}
-
+	include_once('common.php');
 	/* 	This is messy, but necessary for now so this script works in my development environments
 	 *	TODO: clean it up; detect current page and base path on that.
 	 */
 	function printNav($curPage)
 	{
-		checkCountry();
-		global $isInUk;
+		$isInUk = checkCountry();
+		
+		echo '<!-- Country: ' . $isInUk . '-->';
 		
 		echo '<div class="nav">' . "\n";
 		echo '	<ul>' . "\n";

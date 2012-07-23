@@ -1,5 +1,6 @@
 <?php
-
+	include_once('do/common.php');
+	
 	if(isset($_POST["captchaAnswer"]))
 	{
 		$answer = $_POST["captchaAnswer"];
@@ -18,7 +19,8 @@
 	
 	function printContactInfo()
 	{
-		global $isInUk;
+		echo checkCountry();
+		$isInUk = checkCountry();
 		/* Put contact information here */
 		echo 'Zachary Zimmerman<br />';
 		if($isInUk == null || !$isInUk)
