@@ -18,9 +18,17 @@
 	
 	function printContactInfo()
 	{
+		global $isInUk;
 		/* Put contact information here */
 		echo 'Zachary Zimmerman<br />';
-		echo 'zach@zachzimm.com<br />';
-		echo '+1.812.575.0715';
+		if($isInUk == null || !$isInUk)
+			echo 'zach@zachzimm.com<br />';
+		else
+			echo 'zach@zachzimm.co.uk<br />';
+		echo '<!-- ' . $isInUk . ' -->';
+		if($isInUk == null || !$isInUk)
+			echo '+1 812-575-0715';
+		else
+			echo '+44 020 8123 4761';
 	}
 ?>

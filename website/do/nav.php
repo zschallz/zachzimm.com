@@ -36,19 +36,19 @@
 			echo '		--><li><span class="rootItem">INFO&nbsp;</span>' . "\n";
 		echo '			<ul>' . "\n";
 		
-		if( $isInUk )
-		{
-			if( $curPage == 3 )
-				echo '				<li><a class="childItem" href="../cv-uk.php">CV</a></li>' . "\n";
-			else
-				echo '				<li><a class="childItem" href="cv-uk.php">CV</a></li>' . "\n";
-		}			
-		else
+		if( $isInUk == null || !$isInUk )
 		{
 			if( $curPage == 3 )
 				echo '				<li><a class="childItem" href="../resume.php">Resume</a></li>' . "\n";
 			else
 				echo '				<li><a class="childItem" href="resume.php">Resume</a></li>' . "\n";
+		}			
+		else
+		{
+			if( $curPage == 3 )
+				echo '				<li><a class="childItem" href="../cv-uk.php">CV</a></li>' . "\n";
+			else
+				echo '				<li><a class="childItem" href="cv-uk.php">CV</a></li>' . "\n";
 		}
 		
 		if( $curPage == 3 )
