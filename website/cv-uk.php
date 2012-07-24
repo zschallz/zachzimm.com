@@ -159,10 +159,10 @@
                     <h3>B.S. Informatics, Indiana University Bloomington, 08/2004-12/2009</h3>
                     <ul>
                     	<li><b>Major</b>: Informatics <b>Minors</b>: Information Systems Security, Japanese</li>
-                        <li>Completed courses involving Human-Centered Design, Development, Protocol Design, and Cryptography.</li>
+                        <li>Completed courses involving Development, Protocol Design, Cryptography, and Human-Centered Design.</li>
                         <li><b>Senior thesis</b>: Designed and developed an anti-phishing computer peripheral that displayed the reputation ratings of websites users visit; conducted research study to evaluate effectiveness.
                         <ul>
-                          <li>Utilized skills in C, and self-taught skills in Arduino, XUL, PHP, and relational databases.</li>
+                          <li><b>Skills used</b>: C, and self-taught skills in Arduino, XUL, PHP, and relational databases.</li>
                         </ul>
                         </li>
 					</ul> 
@@ -174,13 +174,14 @@
                         <h3>Associate Consultant</h3>
                         <h4><a href="http://www.oracle.com/">Oracle Corporation</a>, Washington D.C. Metro Area, USA, 08/10-Present</h4>
                         <ul class="engagementEven">
-                        	<li><b>EBS System Integration with Web Based Front end.</b> State government. Sep 2011-Apr 2012
-                        	<p><i>RICE Developer, ADF Developer.<br/> Integrated an E-Business Suite R12 Accounts Receivables and Accounts Payables system with a custom ADF Facelets Frontend built for a large state government pension fund.</i></p>
+                        	<li><b>EBS System Integration with Web Based Front end.</b> Public Sector. Sep 2011-Present
+                        	<p><i>ADF Developer, RICE Developer.<br/> Integrated an E-Business Suite R12 Accounts Receivables and Accounts Payables system with a custom ADF Facelets Frontend built for a large state government pension fund.</i></p>
 								<ul>
-									<li>Developed a JAX-WS Web Services using ADF business components to expose EBS Accounts Receivables APIs</li>
+									<li>Developed JAX-WS Web Services using ADF business components to expose EBS Accounts Receivables APIs</li>
 									<li>Developed a Quartz Java Scheduler job to call EBS AR APIs to programmatically create AR Invoices, Receipts, Adjustments, and Credit Applications</li>
 									<li>Developed custom PL/SQL code to wrap around AR APIs to handle authentication, errors, and transaction setup for Java calls to create AR transactions</li>
 									<li>Served as project's sole Technical Oracle Apps Resource at the time.</li>
+                  <li><b>Skills used</b>: Java, ADF, WebLogic, Web Services, PL/SQL, Oracle SQL, E-Business Suite (AR, AP, IBY), SOA Suite (BPEL)</li>
 								</ul>
                         	</li>
                         </ul>
@@ -189,13 +190,14 @@
 								<p><i>RICE Developer; upgraded a large, heavily customized E-Business Suite Human Resources 10.7 system to R12. System used to store HR data for 500,000+ employees.</i></p>
 								<ul>
 									<li>Retrofitted custom Oracle Forms and Oracle Forms Libraries designed for 10.7 to R12.</li>
-									<li>Retrofitted custom Oracle Reports designed for 10.7 to R12.</li>
+									<li>Retrofitted custom Oracle EBS Reports designed for 10.7 to R12.</li>
 									<li>Retrofitted custom packages' HR API Calls to reflect changes between 10.7 and R12.</li>
 									<li>Retrofitted Flexfield Value Sets to reflect changes in validation between 10.7 and R12</li>
 									<li>Converted old data to be compatible with changes to HR made between 10.7 and R12.</li>
 									<li>Worked with functional consultants to solve defects that arose due to the upgrade process by performing the above duties.</li>
 									<li>Assisted in functional and technical unit testing customizations after the upgrade process.</li>
-									<li>Solved technical defects that arose during development (CEMLI) and quality assurance testing (QT&E).</li>
+									<li>Solved technical defects that arose during development (CEMLI) and quality assurance testing (QT&amp;E).</li>
+                  <li><b>Skills used</b>: PL/SQL, Oracle SQL, Oracle Forms, E-Business Suite (HR, OTA, WebUtil, Basic Oracle Apps Administration)</li>
 								</ul>
                         	</li>
                         </ul>
@@ -209,6 +211,7 @@
 									<li>Used Adobe Photoshop to extract web-friendly images from a PSD file provided by a Web Designer.</li>
 									<li>Worked with a backend development team to assist integration of the XHTML, CSS, and Javascript developed into the Java web application.</li>
 									<li>Worked with and mentored an offshore (India) Junior Frontend Developer.</li>
+                  <li><b>Skills used</b>: HTML, CSS, JQuery, Javascript, Photoshop</li>
 								</ul>
                         	</li>
                         </ul>
@@ -218,11 +221,12 @@
                         <h4><a href="http://informatics.indiana.edu/">Indiana University School of Informatics.</a></h4>
 						<p><i>Dewey</i></p>
 						<ul>
-							<li>Chosen by Professor after attending class to participate in paid research work in Human-Robot Interaction</li>
-							<li>Helped architect software and hardware of a robot featuring a sensing platform to detect break-taking in an office environment.</li>
+							<li>Chosen by Professor after attending class to participate in paid research work in Human-Robot Interaction (User Experience for Robots)</li>
+							<li>Helped <a href="http://code.google.com/p/deweybot/source/browse/trunk/">architect software</a> and hardware of a robot featuring a sensing platform to detect break-taking in an office environment.</li>
 							<li>Developed and constructed (including soldering) a prototype of robot using Arduino Microcontrollers along with motion and temperature sensors.</li>
 							<li>Used robot in an in-situ study in an Indiana University office to monitor break-taking habits of participants and using data to suggest breaks.</li>        	
 							<li>Peer reviewed, extended Abstract paper was published based on results of in-situ study (see above).</li>
+              <li><b>Skills used</b>: PHP, C, MySQL, Hardware design and construction (Arduino, soldering, etc)</li>
 						</ul> 
                     </div>
                     <div class="experienceItem">
@@ -230,10 +234,11 @@
                         <h4><a href="http://informatics.indiana.edu/">Indiana University School of Informatics, 01/2010-08/2010</a></h4>
                         <p><i><a href="http://ethos.indiana.edu/">DIMA: Dietary Intake Monitoring Application</a></i></p>
 						<ul>
-							<li>Ported a .NET Mobile application used by dialysis patients to monitor their dietary intake to Android platform</li>
-							<li>Converted existing MS SQL Server Compact database to an Android-friendly SQLite database</li>
-							<li>Utilized ZXing Barcode Scanning Library for Android to scan UPCs of food to link with nutrition information stored in a SQLite database.</li>
-							<li>Assisted User Experience (HCI) designers in testing the .NET applications usability among dialysis patients at a local University hospital.</li>
+							<li>Ported a .NET Mobile application to Android platform used by dialysis patients to monitor their dietary intake</li>
+							<li>Converted existing legacy MS SQL Server Compact database to an Android-friendly SQLite database</li>
+							<li>Utilized ZXing Library for Android to scan UPCs of food to link with nutrition information stored in a SQLite database.</li>
+							<li>Assisted User Experience designers in testing the .NET applications usability among dialysis patients at a local University hospital.</li>
+              <li><b>Skills used</b>: Java, C#, .NET Mobile, Android SDK, SQLite</li>
 						</ul>
                     </div>
                     <div class="experienceItem">
@@ -247,6 +252,7 @@
 							<li>Helped conduct user studies to evaluate ease-of-use and appropriateness of newly developed technologies</li>
 							<li>Performed duties of lab manager (primarily procurement) while in the lab manager's absence.</li>
 							<li>Developed own prototype (Ambient Trust) and used it to design and conduct published in-situ study</li>
+              <li><b>Skills used</b>: C# .Net, ASP .Net, C, Linux Administration, MS SQL, Basic MS SQL Administration, T-SQL, Database Design</li>
 						</ul>
                     </div>
                 </div>
@@ -323,9 +329,9 @@
                     <hr />
                     <table class="cvSkills">
                         <tr>
-                            <td class="cvProductExp">XHTML & CSS</td>
+                            <td class="cvProductExp">XHTML &amp; CSS</td>
                             <td class="cvYearsExp">5 years</td>
-                            <td class="cvSkillsExp">Cross-browser & Standards Compliant Development, WCAG (Accessibility)</td>   
+                            <td class="cvSkillsExp">Cross-browser &amp; Standards Compliant Development, WCAG (Accessibility)</td>   
                         </tr>
 		                <tr>
                             <td class="cvProductExp">Java</td>
@@ -350,7 +356,7 @@
                         <tr>
                             <td class="cvProductExp">Javascript</td>
                             <td class="cvYearsExp">3 years</td>
-                            <td class="cvSkillsExp">JQuery (MIN and UI), DOM manipulation, AJAX, Firefox Extension Development (with XUL & Javascript)</td>
+                            <td class="cvSkillsExp">JQuery (MIN and UI), DOM manipulation, AJAX, Firefox Extension Development (with XUL &amp; Javascript)</td>
                         </tr>
                         <tr>
                             <td class="cvProductExp">XML</td>
