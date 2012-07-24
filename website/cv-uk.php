@@ -251,31 +251,22 @@
                     </div>
                 </div>
                 <div id="publications" class="resumeSection">
-                	<h2>Peer-reviewed Publications</h2>
+                	<h2>Professional Activity</h2>
                     <hr/>
                     <ul>
-   						<li>Caine, K. E., Zimmerman, C. Y., <b>Schall-Zimmerman, Z.</b>, Hazlewood, W. R., Camp, L. J., Connelly, K. H., Huber, L. L, & Shankar, K. <i>DigiSwitch: A device to allow older adults to monitor and direct the collection and transmission of health information collected at home.</i> Journal of Medical Systems.</li>
-                        <li>Hazlewood, W. R., Connelly, K., Caine, K. E.,<b>Schall-Zimmerman, Z.</b>, & Blanton, G. (in press). <i>Property Damage, Purchasing Orders, and Power Outages, Oh My!: Suggestions for Planning your next In the Wild Deployment.</i> In S. Consolvo, D. W. McDonald & B. Harrison (Eds.), Ubiquitous Computing Deployments. Boston, MA: MIT Press.</li>
-						<li>Caine, K. E., Zimmerman, C. Y., <b>Schall-Zimmerman, Z.</b>, Hazlewood, W. R., Sulgrove, A., Camp, L. J., Connelly, K., Lorenzen-Huber, L., & Shankar, K. (2010). <i>DigiSwitch: Design and Evaluation of a Device for Older Adults to Preserve Privacy While Monitoring Health at Home.</i> In Proceedings of the 1st ACM International Health Informatics Symposium (IHI'10). ACM, New York, NY, USA, 153-162. [17.1% acceptance rate] <b>(Best Paper: Privacy and Security Track)</b></li>
-						<li>Lorenzen-Huber, L. M., Camp, L. J., Connelly, K., Shankar, K., Caine, K. E., Hazelwood, W. R., & <b>Schall-Zimmerman, Z.</b> (2010). <i>A Privacy Framework for Evaluating In-home technologies. [Abstract]</i> Program abstracts of the 63rd Annual Meeting of the Gerontological Society of America.</li>
-						<li>Sabanovic, S, Reeder, S., Kechavarzi, B., & <b>Schall-Zimmerman, Z.</B> (2011). <i>Designing a robot through prototyping in the wild.</i> In Proceedings of the 6th international conference on Human-robot interaction (HRI ’11).</li>
-						<li><B>Schall-Zimmerman, Z.</B>, & Camp, L. J. (2010). <i>Elder-friendly Design's Effects on Acceptance of Novel Technologies.</i> <a href="http://www.ece.nus.edu.sg/stfpage/eledbl/chi2010/">CHI 2010 Workshop on Senior-Friendly Technologies: Interaction Design for the Elderly.</a> April, 2010.</li>
-						<li>Hazlewood, W. R., Schall-Zimmerman, Z., Odom, W., Jung, H., & Connelly, K. (2010). <i>Participatory Design with a Community of Seniors.</i> In Extended Abstracts of the 4th International Conference on Pervasive Computing Technologies for Healthcare (Pervasive Health 2010).</li>
-						<li><B>Schall-Zimmerman, Z</B> & Camp, L. J. (2008). <i>Surfing with Ambient Trust.</i> Conference poster presentation, Accepted. Collection: Telecommunications Policy Research Conference. 28-30 Sept 2008, Arlington VA.</li>
-                	</ul>
+   						<li>Peer Reviewed Academic Publications: 
+   							<ul>
+								<li>Book Chapters: 1</li>
+								<li>Journal Papers: 1</li>
+								<li>Conference Papers: 1</li>
+								<li>Poster Papers: 1</li>
+								<li>Workshop Papers: 1</li>
+								<li>Extended Abstracts: 3</li>
+							</ul>
+   						</li>
+   					</ul>
+   					<p>More information available at <a href="http://zachzimm.co.uk/vitae.php">http://zachzimm.co.uk/vitae.php</a></p>
                 </div>
-                <div id="presentations" class="resumeSection">
-                	<h2>Invited Presentations</h2>
-                    <hr/>
-                    <div class="experienceItem">
-                        <ul>
-	                        <li><b>Schall-Zimmerman, Z.</b>, & Camp, L. J. (2010). <i>Elder-friendly Design's Effects on Acceptance of Novel Technologies.</i> Presented as Workshop Paper at <a href="http://www.ece.nus.edu.sg/stfpage/eledbl/chi2010/">CHI 2010 Workshop on Senior-Friendly Technologies: Interaction Design for the Elderly</a>.</li>
-                        	<li><b>Schall-Zimmerman, Z.</b>, & Camp, L. J. (2009). <i>Ambient Trust Cube.</i> Presented as Demo/Poster at <a href="http://www.thei3p.org/events/past_events.html">I3P Insider Threats: Strategies for Staying Secure, 2009</a>.</li>
-                            <li><b>Schall-Zimmerman, Z.</b>, & Camp, L. J. (2008). <i>Ambient Trust Cube.</i> Presented as Demo/Poster at <a href="http://www.tprcweb.com/">TPRC 2008</a>.</li>
-                            <li><b>Schall-Zimmerman, Z.</b>, & Camp, L. J. (2008). <i>SWAT: Surfing with Ambient Trust.</i> Presented as Demo/Poster at <a href="http://www.thei3p.org/events/insider_workshop08.html">I3P Insider Threat Workshop 2008</a>.</li>
-                        </ul>
-                    </div>
-                 </div>
                 <div id="honors" class="resumeSection">
                 	<h2>Honors, Awards, and Funding</h2>
                     <hr/>
