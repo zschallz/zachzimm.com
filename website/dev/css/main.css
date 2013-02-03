@@ -1,0 +1,61 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body
+{
+  background-image: url('../img/reston_winter1.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  
+}
+.overviewContainer {
+  margin-top: 10px;
+  width: 100%;
+  float: left;
+}
+
+.overviewLeft {
+  width: 50%;
+  float: left;
+}
+.overviewRight {
+  width: 50%;
+  float: left;
+}
+
+.overviewRight img {
+  float: right;
+}
+
+.overviewTable {
+  font-size: 14px;
+  color: rgb(225, 225, 225);
+}
+
+.overviewTable th {
+  border-right: 1px solid #dddddd;
+  width: 1px;
+  white-space: nowrap;
+  font-weight: 600;
+}
+.overviewTable .topRow {
+  border-top: 0px;
+}
+
+.projectDescription {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgb
+}
+
+
+
+
+
+
+
+
+
+
