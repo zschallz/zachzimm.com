@@ -5995,11 +5995,10 @@ a.badge:hover {
 
 .hero-unit {
   min-height: 700px;
-  /*padding: 60px;*/
   padding-top: 25px;
   padding-left: 85px;
   padding-right: 85px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
