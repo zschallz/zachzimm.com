@@ -55,6 +55,10 @@ body
   text-shadow: 1px 1px 1px #000;
 }
 
+.contactFormInput {
+  width: 350px;
+}
+
 
 
 

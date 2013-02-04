@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Dewey</title>
+        <title>Zachary Zimmerman</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
@@ -39,13 +39,13 @@
                     </a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li><a href="index.html">Home</a></li>
-                            <li class="dropdown active">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="ambientTrust.html">Ambient Trust</a></li>
                                     <li><a href="netTrust.html">Net Trust</a></li>
-                                    <li class="active"><a href="dewey.html">Dewey</a></li>
+                                    <li><a href="dewey.html">Dewey</a></li>
                                     <li><a href="fluency.html">Fluency</a></li>
                                 </ul>
                             </li>
@@ -58,62 +58,38 @@
         </div>
 
         <div class="container">
-
-            <!-- Main hero unit for a primary marketing message or call to action -->
             <div class="hero-unit">
-                <h1>Dewey</h1>
+                <h1>Contact me</h1>
                 <hr/>
-                <div class="overviewContainer">
-                  <div class="overviewLeft">
-                    <table class="table overviewTable">
-                        <tr>
-                          <th>When</th>
-                          <td>May 2010-Aug 2010</td>
-                        </tr>
-                        <tr>
-                          <th>Technologies</th>
-                          <td>Arduino, C, PHP, MySQL</td>
-                        </tr>
-                        <tr>
-                          <th>Project Page</th>
-                          <td>None</td>
-                        </tr>
-                        <tr>
-                          <th>Source</th>
-                          <td><a href="http://code.google.com/p/deweybot/source/browse/">Google Code - Deweybot</a></td>
-                        </tr>
-                        <tr>
-                          <th>License</th>
-                          <td>Apache 2.0</td>
-                        </tr>
-                    </table>
+                <p>Want to chat? Cool! Please use this form to drop me a line.</p>
+                <br/>
+                <form class="form-horizontal" name="contact" action="do/processContact.php" method="post">
+                  <div class="control-group">
+                    <label class="control-label" for="fromName">Your name</label>
+                    <div class="controls">
+                      <input type="text" id="fromName" name="fromName" class="contactFormInput">
+                    </div>
                   </div>
-                  <div class="overviewRight">
-                  <img src="images/dewey.gif" alt="Picture of Dewey in action">
+                  <div class="control-group">
+                    <label class="control-label" for="fromEmail">Your email address</label>
+                    <div class="controls">
+                      <input type="text" id="fromEmail" name="fromEmail" class="contactFormInput">
+                    </div>
                   </div>
-                </div>
-                  <div class="projectDescription">
-                    <h3>Description</h3>
-                    <hr />
-                    <p>During my (unfinished) Graduate studies I was chosen by <a href="http://www.informatics.indiana.edu/selmas/">Professor Selma Šabanovic</a> to participate in a research project
-                    inspired by a class project I took titled "Human-Robot Interaction." I was chosen to participate in this project as the team's developer
-                    due to my experience in designing and developing physical prototypes using the Arduino microcontroller as a platform.</p>
-                    <p>This research project aimed to determine whether or not certain kinds of robots using certain Human-Robot Interaction design concepts (such as embodiment)
-                    could increase the amount of stress-reducing breaks office workers took per day. This project was both interesting and challenging because there were no
-                    tried-and-true methods published and documented for detecting the presence of a person at his or her desk.</p>
-                    <br/>
-                    <p>During this project, my main contributions were:</p>
-                    <ul>
-                    	<li>Designed and Constructed (chose and procured parts, soldered, glued, duct taped) the hardware for a fully-functional, network-connected presence sensing and logging (detected whether a participant was at his or her desk or not)</li>
-                    	<li>Designed a backend using PHP and MySQL that the presence sensing platform connected to to log presence data for the study</li>
-                    	<li>Designed and developed algorithms that analyzed the data collected from participants to judge when users were at their desk based on motion and temperature values collected by the sensing platform</li>
-                    	<li>Designed and developed real-time reports accessible by other researchers on project using PHP and the algorithms and data mentioned above</li>
-                    </ul>
-                    <br/>
-                    <br/>
+                  <div class="control-group">
+                    <label class="control-label" for="message">Your email address</label>
+                    <div class="controls">
+                      <textarea rows="8" id="message" name="message" class="contactFormInput"></textarea>
+                    </div>
                   </div>
-                </div>
-        
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Send</button>
+                    </div>
+                  </div>
+                </form>
+            </div>
+
             <div id="footer">
                 &copy; 2013 Zachary Zimmerman
             </div>
