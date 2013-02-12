@@ -39,7 +39,7 @@ hgroup, nav, section {
 
 /* Line-height should always be unitless! */
 body {
-  line-height: 1.5;
+  line-height: 1.3;
   background: white; 
 }
 
@@ -72,10 +72,9 @@ a img { border: none; }
 
 body
 {
-	background-image: url(images/bg.gif);
 	margin: 0px;
 	padding: 0px;
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 13px;
 }
 p
@@ -92,126 +91,20 @@ hr
 {
 	border-style: dotted;
 	color: #CCC;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 .container
 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 863px;
+	width: 511pt;
 }
 
-.container #header
-{
-	height: 132px;
-	background-image: url(images/header.png);
-	background-repeat: no-repeat;
-}
-.container #header .topSpaceHolder
-{
-	height: 77px;
-}
-.container #header .nav
-{
-	float: right;
-	margin-right: 30px;
-}
-/* Root list of pages */
-.container #header .nav ul li
-{
-/*	display: inline-block; */
-	float: left;
-	height: 55px;
-	width: 130px;
-	list-style: none;
-	font-family: Impact, Charcoal, sans-serif;
-	letter-spacing: 0px;
-	font-size: 20px;
-	color: #5C5C5C;
-	text-align: center;
-}
-.container #header .nav ul li .rootItem
-{
-	display: block;
-	margin-top: 10px;
-	color: #5C5C5C;
-}
-.container #header .nav ul li .rootItem:hover
-{
-	text-decoration: none;
-	color: #5C5C5C;
-}
-.container #header .nav ul li.active
-{
-	background-color: #FCFCFC;
-}
-.container #header .nav ul li:hover
-{
-	background-color: #EAEAEA;
-}
-/* List of child menu items */
-.container #header .nav ul li ul
-{
-	display: none;
-	position: absolute;
-	height: auto;
-	width: 130px;
-	opacity: 0.97;
-	background-color: #EFEFEF;
-	margin-top: 15px;
-	z-index:200;
-}
-.container #header .nav a
-{
-	color: #000;
-	text-decoration: none;
-}
-.container #header .nav a:hover
-{
-	color: #000;
-	text-decoration: underline;
-}
-.container #header .nav ul li ul li
-{
-	width: 130px;
-	height: 40px;
-	text-align: center;
-	font-size: 13px;
-	letter-spacing: 0px;
-	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-.container #header .nav ul li ul li:hover
-{
-	/*background-color: #EBEBEB;*/
-	background-color: #E4E4E4;
-}
-.container #header .nav ul li ul li .childItem
-{
-	display: block;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border-bottom: 1px #CCC dotted;
-}
-.container #header .nav ul li ul li.bottom
-{
-	border-bottom: none;
-}
-.container #header .nav ul li:hover ul
-{
-	display: block;
-}
-.container #header .navSpaceHolder
-{
-	height: 55px;
-}
 .container #content
-{
-	background-color: #FCFCFC;
+{ 
 	min-height: 720px;
 	height:auto !important;
 	height:720px;
-	float: left;
-	width: 851px;
 	float: left;
 }
 .container #content #photo
@@ -230,39 +123,6 @@ hr
 {
 	font-size: 35px;
 }
-.container .rightShadow
-{
-	background-image: url(images/bodyDropShadow.png);
-	background-position: right;
-	background-repeat: repeat-y;
-	width: 12px;
-	min-height: 720px;
-	height:auto !important;
-	height:720px;
-	float: left;
-}
-.container #footer
-{
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	color: #FFFFFF;
-	font-size: 12px;
-}
-.container #footer .bottomShadow span
-{
-	margin-left: 5px;
-}
-.container #footer .bottomShadow
-{
-	background-image: url(images/footer.png);
-	background-repeat: no-repeat;
-	width: 862px;
-	height: 25px;
-	float:left;
-}
-.container #footer #footerContent
-{
-	
-}
 
 .floatLeft
 {
@@ -275,18 +135,94 @@ hr
 {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 13px;
-	margin-top: 15px;
-	margin-right: 10px;
-	margin-left: 10px;
+  margin-top: 5px;
+}
+#resume #resumeHeading
+{
+  float: left;
+  width: 100%;
+  margin-bottom: 5px;
+}
+#resume #resumeHeading .nameContainer
+{
+  float: left;
+  padding-right: 15px;
+  height: 65px;
+  padding-bottom:5px;
+}
+#resume #resumeHeading .nameContainer #firstName
+{
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #000000;
+  }
+#resume #resumeHeading .nameContainer #lastName
+{
+  font-family: 'Anton', sans-serif;
+  font-size: 26px;
+  letter-spacing: 0px;
+  margin-top: -12px;
+  color: #525252;
+}
+#resume #resumeHeading #email
+{
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-top: 9px;
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  color: rgb(19, 19, 19);
+}
+#resume #resumeHeading #phone
+{
+  padding-left: 10px;
+  padding-right: 5px;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  letter-spacing: 4px;
+  color: #525252;
+  margin-top: -2px;
+}
+#resume #resumeHeading #urlDesc
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 7px;
+  font-family: 'Anton', sans-serif;
+  font-size: 22px;
+  color: rgb(19, 19, 19);
+}
+#resume #resumeHeading #url
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  color: #525252;
+}
+#resume #resumeHeading .linkContainer
+{
+  float: left;
+  height: 65px;
+  width: 255px;
+  padding-bottom: 5px;
+}
+#resume #resumeHeading #qr
+{
+  float: left;
+  height: 65px;
+  width: 65px;
 }
 #resume hr
 {
 	margin-top: 0px;
-	margin-bottom: 7px;
+	margin-bottom: 5px;
 }
 #resume .resumeSection
 {
-	padding-bottom: 10px;
+	padding-bottom: 3px;
 }
 #resume #contactInfo
 {
@@ -294,12 +230,13 @@ hr
 }
 #resume h2
 {
-	font-size: 20px;
+	font-size: 16px;
+  font-weight: bold;
 }
 #resume h3
 {
-	font-size: 15px;
-	font-weight: bold;
+	font-size: 14px;
+  font-weight: bold;
 }
 #resume h4
 {
@@ -308,12 +245,14 @@ hr
 }
 #resume ul
 {
+  padding-top: 3px;
+  padding-bottom: 3px;
 	font-size: 14px;
 	margin-left: 5px;
 }
 #resume li
 {
-	padding-bottom: 1px;
+	padding-bottom: 0px;
 /*	list-style: none;
 	background-image: url(images/bullet.gif);
 	background-repeat: no-repeat;
@@ -341,91 +280,26 @@ hr
 }
 .cvSkills .cvProductExp
 {
-	width: 15%;
+	width: 13%;
+  padding-bottom: 5px;
 }
 .cvSkills .cvYearsExp
 {
 	width: 7%;
+  padding-bottom: 5px;
 }
 .cvSkills .cvSkillsExp
 {
 	width: 78%;
+  padding-bottom: 5px;
 }
-
-#contactCaptcha
+.dateRange
 {
-	display: none;
+  display: block;
+  float: right;
+  font-style: normal;
 }
-#contactCaptcha .contactCaptchaFormContent
+.present
 {
-	margin-top: 20px;
-}
-
-.project
-{
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-size: 13px;
-	margin-top: 15px;
-	margin-right: 10px;
-	margin-left: 10px;
-}
-.project hr
-{
-	margin-top: 0px;
-	margin-bottom: 7px;
-}
-.project h2
-{
-	font-size: 20px;
-}
-.project h3
-{
-	font-size: 15px;
-	font-weight: bold;
-	margin-top: 10px;
-	margin-bottom: 5px;
-}
-.project h4
-{
-	font-size: 14px;
-	font-style: italic;
-}
-.project ul
-{
-	font-size: 14px;
-	margin-left: 5px;
-}
-.project li
-{
-	padding-bottom: 1px;
-	margin-left: 15px;
-}
-.project p
-{
-	padding-bottom: 10px;
-}
-.projectOverview
-{
-}
-.projectOverview th
-{
-	padding-right: 20px;
-	padding-bottom: 5px;
-	font-weight: bold;
-}
-.overviewContainer
-{
-	margin-top: 10px;
-	width: 100%;
-	float: left;
-}
-.overviewLeft
-{
-	width: 50%;
-	float: left;
-}
-.overviewRight
-{
-	width: 50%;
-	float: left;
+  margin-right: 2px;
 }
