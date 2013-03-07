@@ -52,11 +52,21 @@ body
 
 #footer {
   margin-left: 5px;
+  margin-top: 10px;
   text-shadow: 1px 1px 1px #000;
 }
 
 .contactFormInput {
   width: 350px;
+}
+
+.social-icons {
+	float: right;
+	margin-top: 3px;
+}
+.copyrightText {
+	float: left;
+	margin-top: 15px;
 }
 
 
