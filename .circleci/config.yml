@@ -1,0 +1,19 @@
+version: 2.0
+jobs:
+  deploy:
+    machine:
+      image: circleci/classic:latest
+    branches:
+          only:
+            - master
+            - ci
+    steps:
+      - run:
+          name: Install LFTP
+          command: |
+            sudo apt-get update;
+            sudo apt-get install lftp;
+      - checkout
+      - run:
+          name: Send Via SFTP
+          command: lftp sftp://${USERNAME}:${PASSWORD}@${HOSTNAME} -e "mirror -v -R --exclude .git/ --exclude .circleci/ ./ ./zachzimm.com/; quit"
