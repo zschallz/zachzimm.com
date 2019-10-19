@@ -18,4 +18,3 @@ jobs:
           name: Send Via SFTP
           command: | 
             lftp sftp://${USERNAME}:${PASSWORD}@${HOSTNAME} -e "mirror -v -R --exclude .git/ --exclude .circleci/ ./ ./zachzimm.com/; quit";
-            echo "Build number ${CIRCLE_BUILD_NUM}" > ./zachzimm.com/website/build.txt;
