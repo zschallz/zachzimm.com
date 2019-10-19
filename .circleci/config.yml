@@ -1,6 +1,6 @@
 version: 2.0
 jobs:
-  deploy:
+  build:
     machine:
       image: circleci/classic:latest
     branches:
