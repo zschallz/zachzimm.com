@@ -6,7 +6,6 @@ jobs:
     branches:
           only:
             - master
-            - ci
     steps:
       - run:
           name: Install LFTP
