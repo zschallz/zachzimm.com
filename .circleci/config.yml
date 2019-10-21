@@ -17,4 +17,4 @@ jobs:
       - run:
           name: Send Via SFTP
           command: | 
-            lftp sftp://${USERNAME}:${PASSWORD}@${HOSTNAME} -e "mirror -v -R --exclude .git/ --exclude .circleci/ ./ ./zachzimm.com/; quit";
+            lftp sftp://${USERNAME}:${PASSWORD}@${HOSTNAME} -e "mirror -v -R --exclude .git/ --exclude .circleci/ ./ ./zachzimm.com/zachzimm.com/; quit";
