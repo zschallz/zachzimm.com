@@ -2,6 +2,7 @@
 
   $SEND_TO  = "zach+contactform@zachzimm.com";
   $SUBJECT  = "Zachzimm.com contact form";
+  $CAPTCHA_STATIC_VALUE = "zimmerman";
 
 
   if( !isset($_POST['fromName']) || !isset($_POST['fromEmail']) || !isset($_POST['message']) )
@@ -29,11 +30,23 @@
     echo "Please enter a message.";
     return;
   }
+  if( !isset($_POST['trivia']) )
+  {
+    echo "Sorry- there's been an error. Please try again.";
+    return;
+  }
   /* proceed to send email */
   
   $fromName   = filter_var($_POST['fromName'],   FILTER_SANITIZE_STRING);
   $fromEmail  = filter_var($_POST['fromEmail'],  FILTER_SANITIZE_EMAIL); 
   $message    = filter_var($_POST['message'],    FILTER_SANITIZE_STRING);
+  $captcha    = filter_var($_POST['trivia'],    FILTER_SANITIZE_STRING);
+
+  if( $captcha != $CAPTCHA_STATIC_VALUE )
+  {
+    echo "Sorry- there's been an error. Please try again.";
+    return;
+  }
   
   $emailBody = "Name: $fromName \n Email address: $fromEmail \n Message: $message";
   
