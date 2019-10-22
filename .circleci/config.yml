@@ -6,7 +6,6 @@ jobs:
     branches:
           only:
             - master
-            - lazyCaptcha
     steps:
       - run:
           name: Install LFTP
