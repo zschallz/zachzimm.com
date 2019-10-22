@@ -1,44 +1,33 @@
 <?php
 
-  $SEND_TO  = "zach@zachzimm.com";
+  $SEND_TO  = "zach+contactform@zachzimm.com";
   $SUBJECT  = "Zachzimm.com contact form";
 
 
   if( !isset($_POST['fromName']) || !isset($_POST['fromEmail']) || !isset($_POST['message']) )
   {
-    echo "There seems to have been some trouble sending your message. Please feel free to email me at zach@zachzimm.com.";
+    echo "There seems to have been some trouble sending your message. Please feel free to email me at <my name> at <this domain>.";
     return;
   }
-  
-
   if( isset($_POST['fromName']) && empty($_POST['fromName']) )
   {
     echo "Please enter your name.";
     return;  
   }
-  else 
+  if( isset($_POST['fromEmail']) && empty($_POST['fromEmail']) )
   {
-    if( isset($_POST['fromEmail']) && empty($_POST['fromEmail']) )
-    {
-      echo "Please enter an email address.";
-      return;  
-    }
-    else
-    {
-      if( isset($_POST['fromEmail']) && !filter_var( $_POST['fromEmail'], FILTER_VALIDATE_EMAIL ) )
-      {
-        echo "Please enter a valid email address.";
-        return;  
-      }
-      else
-      {
-        if( isset($_POST['message']) && empty($_POST['message']) )
-        {
-          echo "Please enter a message.";
-          return;
-        }
-      }
-    }
+    echo "Please enter an email address.";
+    return;  
+  }
+  if( isset($_POST['fromEmail']) && !filter_var( $_POST['fromEmail'], FILTER_VALIDATE_EMAIL ) )
+  {
+    echo "Please enter a valid email address.";
+    return;  
+  }
+  if( isset($_POST['message']) && empty($_POST['message']) )
+  {
+    echo "Please enter a message.";
+    return;
   }
   /* proceed to send email */
   
