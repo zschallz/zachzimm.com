@@ -42,7 +42,7 @@
   $message    = filter_var($_POST['message'],    FILTER_SANITIZE_STRING);
   $captcha    = filter_var($_POST['trivia'],    FILTER_SANITIZE_STRING);
 
-  if( $captcha != $CAPTCHA_STATIC_VALUE )
+  if( strtolower($captcha) != $CAPTCHA_STATIC_VALUE )
   {
     echo "Sorry- there's been an error. Please try again.";
     return;
